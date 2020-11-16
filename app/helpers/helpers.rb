@@ -5,6 +5,6 @@ class Helpers
     @user
   end
   
-  def
+  def self.is_logged_in?
   
 end
