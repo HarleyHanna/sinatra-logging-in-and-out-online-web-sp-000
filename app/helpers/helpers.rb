@@ -1,6 +1,6 @@
 class Helpers
   
-  def
+  def self.current_user()
   
   
 end
