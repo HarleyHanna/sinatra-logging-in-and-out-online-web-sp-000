@@ -22,6 +22,7 @@ class ApplicationController < Sinatra::Base
 
   get '/account' do
     @uaer = User.find_by(session[:user_id])
+    
   end
 
   get '/logout' do
